@@ -29,7 +29,7 @@ public class A1Novice {
 				sum += cost; //9.05
 			}
 			char first_letter = first_name.charAt(0);
-			System.out.println(first_letter + ". " + last_name + ": " + sum);
+			System.out.println(first_letter + ". " + last_name + ": " + String.format("%.2f", sum));
 			
 			i++;
 			
