@@ -62,7 +62,8 @@ public class A1Adept {
 			purch_amounts[i] = sum; //add 4.55 to array
 			
 			if (i==0) {	
-				smallest_sum = sum; //4.55
+				smallest_sum = sum;
+				biggest_sum = sum;
 				biggest = first_name + " " + last_name;
 	    		smallest = first_name + " " + last_name;	
 			}
